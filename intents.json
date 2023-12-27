@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Yes! I'm here.", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": "greeting_context"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": "goodbye_context"
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding, or software development means writing computer code to automate tasks."],
+      "context_set": "programming_context"
+    },
+    {
+      "tag": "resource",
+      "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+      "responses": ["Check out the Edcite landing page."],
+      "context_set": "programming_context"
+    },
+    {
+      "tag": "education",
+      "patterns": ["Tell me about education", "What's the importance of education?", "Why is education necessary?", "How can I improve my learning skills?"],
+      "responses": ["Education is the key to unlocking your potential. It broadens your horizons and equips you with valuable knowledge and skills for personal and professional growth."],
+      "context_set": "learning_context"
+    },
+    {
+      "tag": "health",
+      "patterns": ["How to stay healthy?", "Tell me about a healthy lifestyle", "Any tips for maintaining good health?", "What are the benefits of regular exercise?"],
+      "responses": ["A healthy lifestyle includes a balanced diet, regular exercise, adequate sleep, and stress management. These habits contribute to overall well-being and longevity."],
+      "context_set": "health_context"
+    },
+    {
+      "tag": "books",
+      "patterns": ["Recommend a good book", "What's your favorite book?", "Tell me about the latest book releases", "Any must-read books?"],
+      "responses": ["One highly recommended book is 'The Alchemist' by Paulo Coelho. It's a philosophical novel that explores the journey of self-discovery and personal legend."],
+      "context_set": "books_context"
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Tell me about travel destinations", "Recommend a good place to visit", "Any travel tips?", "What's your dream vacation?"],
+      "responses": ["Traveling broadens your perspective. Consider exploring places like Kyoto, Japan, known for its rich history and beautiful temples, or Santorini, Greece, with its stunning landscapes."],
+      "context_set": "travel_context"
+    },
+    {
+      "tag": "pets",
+      "patterns": ["Tell me about pets", "Do you like animals?", "Any pet care tips?", "What's your favorite animal?"],
+      "responses": ["Pets can bring joy and companionship. If you have a pet, ensure they have a balanced diet, regular vet check-ups, and lots of love and attention."],
+      "context_set": "pets_context"
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Do you have the time?", "Can you tell me the time?", "What's the current time?"],
+      "responses": ["I'm sorry, I don't have real-time information. Please check your device for the current time."],
+      "context_set": "time_context"
+    },
+    {
+      "tag": "food",
+      "patterns": ["What's your favorite food?", "Recommend a good place to eat", "What should I cook for dinner?", "Tell me about a delicious recipe"],
+      "responses": ["I don't have personal preferences, but I suggest trying a classic like spaghetti carbonara or exploring local cuisine for a unique dining experience."],
+      "context_set": "food_context"
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["What's your hobby?", "Tell me about your favorite pastime", "Any hobby recommendations?", "What do you do for fun?"],
+      "responses": ["As a virtual assistant, I don't have personal hobbies, but I'm here to assist you! If you're looking for a hobby, consider trying photography, reading, or hiking."],
+      "context_set": "hobbies_context"
+    },
+    {
+      "tag": "weekend",
+      "patterns": ["Any plans for the weekend?", "What should I do this weekend?", "Tell me about weekend activities", "How do you spend your weekends?"],
+      "responses": ["Weekends are a great time to relax and recharge. You could consider spending time outdoors, trying a new hobby, or catching up on your favorite books or movies."],
+      "context_set": "weekend_context"
+    },
+    {
+      "tag": "dreams",
+      "patterns": ["Tell me about your dreams", "Do you dream?", "What's the weirdest dream you've had?", "Any tips for better dreams?"],
+      "responses": ["As a virtual assistant, I don't dream, but I can help you explore dream interpretation or share tips for improving the quality of your dreams, such as maintaining a consistent sleep schedule."],
+      "context_set": "dreams_context"
+    },
+    {
+  "tag": "edcite",
+  "patterns": ["What is Edcite?", "Who are Edcite?", "Why Edcite?"],
+  "responses": [
+    "Edcite is a free assessment platform for teachers, providing students with digital practice aligned to state standards.",
+    "Teachers use Edcite to create and share assignments, track student progress, and provide targeted feedback. It's a versatile tool designed to support effective teaching and learning."
+  ],
+  "context_set": "edcite_context"
+}
+  ]
+}
